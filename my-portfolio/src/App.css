@@ -1,3 +1,7 @@
+* {
+  background-color: lightskyblue;
+}
+
 .App {
   text-align: center;
 }
@@ -38,6 +42,19 @@
   }
 }
 
+.header-box {
+  border: 3px;
+  border-color: black;
+  background-color: slategray;
+  min-height: 100px;
+}
+
 .nav {
   display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-link {
+  margin: 20px;
 }

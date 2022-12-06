@@ -7,7 +7,7 @@ const resumeInfo = {
 
     "roleDescription": "I am excited to be working my way towards a career in web development. I love challenging myself and learning new technologies.",
 
-    "aboutMe": "I am currently a teacher in Chicago interested in pursuing a career in web development. I have completed a full-stack web development boot camp, and continue to learn new technologies daily.",
+    "aboutMe": "Welcome to my portfolio! My name is Austin McIntyre and I'm currently pursuing a change in careers. I am participating in the Northwestern Coding Bootcamp to supplement my own learning as I pursue my end goal of becoming a full-stack web developer. For the time being, I work as a Health/PE Teacher in Chicago, IL. If you would like to get in touch, please see the 'Contact' portion of this page!",
 
     "location": "Chicago, IL",
     // "portfolio": Will use this once the github pages are set

@@ -1,9 +1,30 @@
 import React from 'react';
+import resumeInfo from '../resumeInfo';
 
-export default function Footer() {
+export default function Footer(props) {
+
+    const resumeInfo = props.resumeInfo;
+
     return (
-        <div>
-            <h1>You found the Home Page!</h1>
-        </div>
+        <footer className='footer'>
+            <div className='row'>
+                <div className=''>
+                    <ul className='contact-links'>
+                        {
+                            resumeInfo.contactLinks && resumeInfo.contactLinks.map((link) => {
+                                return (
+                                    <li className='footer-icon'>
+                                        <a href={link.url}>
+                                            <i className={link.className}>{link.className}</i>
+                                        </a>
+                                    </li>
+                                )
+                            })
+                        }
+                    </ul>
+
+                </div>
+            </div>
+        </footer>
     )
 }

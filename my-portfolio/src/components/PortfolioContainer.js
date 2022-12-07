@@ -1,20 +1,17 @@
 import React, { useState } from 'react';
 import Header from './Header';
-import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact'
 import Resume from './pages/Resume'
+import Footer from './Footer'
 import resumeInfo from '../resumeInfo';
 
 export default function PortfolioContainer() {
-    const [currentPage, setCurrentPage] = useState('Home');
+    const [currentPage, setCurrentPage] = useState('About');
 
 
     const renderPage = () => {
-        if (currentPage === 'Home') {
-            return <Home resumeInfo={resumeInfo} />;
-        }
         if (currentPage === 'About') {
             return <About resumeInfo={resumeInfo} />;
         }
@@ -35,6 +32,7 @@ export default function PortfolioContainer() {
         <div>
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
+            <Footer resumeInfo={resumeInfo} />
         </div>
     );
 }

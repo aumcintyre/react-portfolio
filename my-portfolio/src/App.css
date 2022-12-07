@@ -1,10 +1,20 @@
 * {
   background-color: #282c34;
-  font-family: 'Courier New', Courier, monospace
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+a {
+  background-color: rgb(49, 0, 0);
+  font-size: 20px;
+}
+
+.custom-container {
+  background-color: #282c34;
+  padding-bottom: 60px;
+  padding: 10px;
 }
 
 .about-container {
-  background-color: rgb(66, 38, 38);
   color: antiquewhite;
   justify-items: center;
   font-size: 24px;
@@ -28,7 +38,7 @@
 }
 
 .about-me {
-  padding: 20px;
+  padding-top: 0px;
 
 }
 
@@ -38,7 +48,7 @@
 }
 
 .header-box {
-  background-color: rgb(94, 0, 0);
+  background-color: rgb(49, 0, 0);
   min-height: 100px;
   /* flex-direction: column;
   align-items: center;
@@ -46,18 +56,24 @@
   display: inline; */
 }
 
-.footer {
+.footer-custom {
   display: flex;
   position: fixed;
   padding: 10px 10px 0px 10px;
   bottom: 0;
   width: 100%;
   /* Height of the footer*/
-  height: 100px;
+  height: 70px;
 
   /* flex-direction: column; */
   align-items: center;
   justify-content: center;
+  border-style: solid;
+  border-color: antiquewhite;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 10px;
 }
 
 .nav {
@@ -69,12 +85,13 @@
   border-left: 0px;
   border-right: 0px;
   border-color: antiquewhite;
+  border-radius: 10px;
 
 }
 
 .nav-link {
   margin: 20px;
-  background-color: rgb(94, 0, 0);
+  background-color: rgb(49, 0, 0);
   font-size: 240px;
   color: antiquewhite;
 
@@ -88,19 +105,70 @@
   border-color: antiquewhite;
 }
 
+.greeting {
+  font-size: 55px;
+  text-decoration: underline;
+}
+
 .profile-picture {
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 85%;
+  max-height: 85%;
   border-style: solid;
-  border-radius: 50px;
+  border-radius: 20px;
   margin: 10px;
+}
+
+.project-image {
+  max-width: 95%;
+  max-height: 95%;
+  border-style: solid;
+  border-radius: 15px;
 }
 
 .class-links {
   list-style: none;
 }
 
-a {
-  background-color: rgb(94, 0, 0);
-  font-size: 20px;
+
+.projects {
+  display: flex;
+}
+
+.project-container {
+  color: antiquewhite;
+  justify-items: center;
+  font-size: 24px;
+  line-height: 2;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  /* background-color: #008CBA; */
+}
+
+.overlay-text {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 15px;
+}
+
+.project-container:hover .overlay {
+  opacity: .85;
 }

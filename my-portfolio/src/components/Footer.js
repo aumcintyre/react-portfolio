@@ -6,7 +6,7 @@ export default function Footer(props) {
     const resumeInfo = props.resumeInfo;
 
     return (
-        <footer className='footer'>
+        <footer className='footer footer-custom'>
             <div className='row'>
                 <div className=''>
                     <ul className='contact-links'>

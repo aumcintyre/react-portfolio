@@ -6,11 +6,11 @@ export default function About(props) {
     const resumeInfo = props.resumeInfo;
 
     return (
-        <div className='about-container'>
+        <div className='about-container custom-container'>
             <div className='row'>
                 <div className='col-md-5'>
                     <div className='about-me'>
-                        <h1>A little about myself...</h1>
+                        <h1 className='greeting'>Meet Austin McIntyre:</h1>
                         <br></br>
                         <p>
                             {resumeInfo.aboutMe}

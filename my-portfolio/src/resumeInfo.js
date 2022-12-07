@@ -7,7 +7,7 @@ const resumeInfo = {
 
     "roleDescription": "I am excited to be working my way towards a career in web development. I love challenging myself and learning new technologies.",
 
-    "aboutMe": "Welcome to my portfolio! My name is Austin McIntyre and I'm currently pursuing a change in careers. I am participating in the Northwestern Coding Bootcamp to supplement my own learning as I pursue my end goal of becoming a full-stack web developer. For the time being, I work as a Health/PE Teacher in Chicago, IL. If you would like to get in touch, please see the 'Contact' portion of this page!",
+    "aboutMe": "Hello and welcome to my portfolio! I am currently participating in the Northwestern Coding Bootcamp to supplement my own learning as I pursue my end goal of becoming a full-stack web developer. For the time being, I work as a high school teacher in Chicago, IL. I've been lucky enough to work in the field of education for nearly a decade, but I've decided it's time to make a change. On this portfolio you can see my past projects and repos, my resume, and my contact information. If you would like to get in touch, please navigate to the 'Contact' tab here, or check out my LinkedIn profile linked below!",
 
     "location": "Chicago, IL",
     // "portfolio": Will use this once the github pages are set
@@ -85,12 +85,14 @@ const resumeInfo = {
         {
             "name": "Virtual Bartender",
             "url": "https://project2thebestmen.herokuapp.com/",
-            "image": "placeholder.jpg"
+            "image": "images/best-men-screenshot.png",
+            "description": "The Virtual Bartender is a place where users can come to find their favorite drinks, or try new ones based on their liquor of choice. It allows users to create or save recipes, as well as connect with other users to see their favorites too."
         },
         {
             "name": "Varistas Cafe",
             "url": "https://project1team1.github.io/varistascafe/",
-            "image": "placeholder.jpg"
+            "image": "images/varistas.png",
+            "description": "With the Varistas Cafe app, you will never need help finding a cup of coffee again. Users can explore coffee recipes to make at home, or find a map of their current location with all cafes marked for them. Enjoy the subtle tones of 'cafe music' while you browse!"
         },
     ],
 

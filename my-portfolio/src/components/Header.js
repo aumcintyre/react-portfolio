@@ -5,10 +5,11 @@ function Header({ currentPage, handlePageChange }) {
         <>
             <header>
                 <ul id='nav' className='nav  header-box'>
-                    <li className='nav-link'><a href='#about' onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'link-primary active' : 'link-secondary'}><button className='button-rounded'>About Me</button></a></li>
-                    <li className='nav-link'><a href='#projects' onClick={() => handlePageChange('Projects')} className={currentPage === 'Projects' ? 'link-primary active' : 'link-secondary'}>Projects</a></li>
-                    <li className='nav-link'><a href='#contact' onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'link-primary active' : 'link-secondary'}>Contact</a></li>
-                    <li className='nav-link'><a href='#resume' onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'link-primary active' : 'link-secondary'}>Resume</a></li>
+                    <li className='nav-link'><a href='#home' onClick={() => handlePageChange('Home')} ><button className={currentPage === 'Home' ? 'btn btn-light' : 'btn btn-secondary'}>Home</button></a></li>
+                    <li className='nav-link'><a href='#about' onClick={() => handlePageChange('About')}><button className={currentPage === 'About' ? 'btn btn-light' : 'btn btn-secondary'}>About Me</button></a></li>
+                    <li className='nav-link'><a href='#projects' onClick={() => handlePageChange('Projects')}><button className={currentPage === 'Projects' ? 'btn btn-light' : 'btn btn-secondary'}>Projects</button></a></li>
+                    <li className='nav-link'><a href='#contact' onClick={() => handlePageChange('Contact')}><button className={currentPage === 'Contact' ? 'btn btn-light' : 'btn btn-secondary'}>Contact</button></a></li>
+                    <li className='nav-link'><a href='#resume' onClick={() => handlePageChange('Resume')}><button className={currentPage === 'Resume' ? 'btn btn-light' : 'btn btn-secondary'}>Resume</button></a></li>
                 </ul>
             </header>
         </>

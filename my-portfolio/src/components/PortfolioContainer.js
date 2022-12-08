@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Header from './Header';
+import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact'
@@ -8,10 +9,13 @@ import Footer from './Footer'
 import resumeInfo from '../resumeInfo';
 
 export default function PortfolioContainer() {
-    const [currentPage, setCurrentPage] = useState('About');
+    const [currentPage, setCurrentPage] = useState('Home');
 
 
     const renderPage = () => {
+        if (currentPage === 'Home') {
+            return <Home resumeInfo={resumeInfo} />;
+        }
         if (currentPage === 'About') {
             return <About resumeInfo={resumeInfo} />;
         }

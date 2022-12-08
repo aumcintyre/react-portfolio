@@ -7,7 +7,9 @@ const resumeInfo = {
 
     "roleDescription": "I am excited to be working my way towards a career in web development. I love challenging myself and learning new technologies.",
 
-    "aboutMe": "Welcome to my portfolio! I am currently participating in the Northwestern Coding Bootcamp to supplement my own learning as I pursue my end goal of becoming a full-stack web developer. For the time being, I work as a high school teacher in Chicago, IL. I've been lucky enough to work in the field of education for nearly a decade, but I've decided it's time to make a change. On this portfolio you can see my past projects and repos, my resume, and my contact information. If you would like to get in touch, please navigate to the 'Contact' tab here, or check out my LinkedIn profile linked below!",
+    "aboutMe1": "    I am currently participating in the Northwestern Coding Bootcamp to supplement my own learning as I pursue my end goal of becoming a full-stack web developer. For the time being, I work as a high school teacher in Chicago, IL. I've been lucky enough to work in the field of education for nearly a decade, but I've decided it's time to make a change. Hopefully, that's where this portfolio comes in.",
+
+    "aboutMe2": "Outside of work, I enjoy most things sports or technology related. I'm a season-ticket holder for the Chicago Cubs, so during the summer if I'm not working or coding, you will typically find me at Wrigley Field. I'm recently married to my college sweetheart, and this career change is another step towards building the life we want. If there is anything else you'd like to know, please don't hesitate to ask!",
 
     "location": "Chicago, IL",
     // "portfolio": Will use this once the github pages are set

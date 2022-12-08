@@ -1,16 +1,26 @@
-* {
-
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+#root {
+  height: 100%;
+  width: 100%;
 }
 
-/* body {
-  background-image: url('../public/images/space-background.jpg');
-  background-size: cover;
+:root {
+  --primary-color: rgba(27, 27, 46, 0.514);
+  --secondary-color: rgb(46, 23, 23);
+}
 
-} */
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+.primary {
+  color: var(--primary-color);
+}
+
+* {
+
+  font-family: 'Dosis';
+}
 
 body {
-  background: url('../public/images/fractal.jpg') no-repeat center center fixed;
+  background: url('../public/images/backgound.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -24,8 +34,15 @@ a {
 
 .custom-container {
   /* background-color: #282c34; */
+  position: relative;
+  min-height: 100vh;
   padding-bottom: 60px;
   padding: 10px;
+}
+
+.break {
+  padding: 50px;
+  border: 1px solid rgb(255, 255, 255);
 }
 
 .about-container {
@@ -33,7 +50,23 @@ a {
   justify-items: center;
   font-size: 24px;
   line-height: 2;
-  margin: 25px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 40px 50px;
+}
+
+.home-container {
+  color: white;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-row {
+  flex-basis: 100%;
 }
 
 .App {
@@ -62,8 +95,8 @@ a {
 }
 
 .header-box {
-  /* background-color: rgb(49, 0, 0); */
-  min-height: 100px;
+  background-color: var(--primary-color);
+  /* min-height: 10px; */
   /* flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -74,10 +107,11 @@ a {
   display: flex;
   position: fixed;
   padding: 10px 10px 0px 10px;
+  background-color: var(--secondary-color);
   bottom: 0;
   width: 100%;
   /* Height of the footer*/
-  height: 70px;
+  height: 60px;
 
   /* flex-direction: column; */
   align-items: center;
@@ -104,22 +138,21 @@ a {
 }
 
 .nav-link {
-  margin: 20px;
+  margin: 5px 25px 5px 25px;
   /* background-color: rgb(49, 0, 0); */
-  font-size: 240px;
   color: antiquewhite;
 
 }
 
 
 
-.active {
+/* .active {
   border-style: solid;
   border-top: 0px;
   border-left: 0px;
   border-right: 0px;
   border-color: antiquewhite;
-}
+} */
 
 .greeting {
   font-size: 55px;
@@ -156,7 +189,7 @@ a {
   font-size: 24px;
   line-height: 2;
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 80px;
 }
 
 .overlay {
@@ -169,24 +202,25 @@ a {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  /* background-color: #008CBA; */
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+  overflow: auto;
 }
 
 .overlay-text {
   color: white;
-  font-size: 12px;
+  font-size: 16px;
   position: absolute;
-  top: 50%;
+  /* top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   text-align: center;
-  padding: 15px;
 }
 
 .project-container:hover .overlay {
-  opacity: .85;
+  opacity: .95;
 }
 
 .form-container {
@@ -223,7 +257,8 @@ a {
 .card-container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding-top: 10px;
+  padding-bottom: 100px;
 }
 
 .dir-column {
@@ -261,4 +296,17 @@ a {
 
 .contact-links {
   padding: 0px
+}
+
+.pdf-container {
+  width: 100%;
+  height: 900px;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-logo {
+  max-height: 200px;
 }

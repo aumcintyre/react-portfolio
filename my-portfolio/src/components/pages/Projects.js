@@ -6,7 +6,7 @@ export default function Projects(props) {
     const resumeInfo = props.resumeInfo;
 
     return (
-        <section id='projects' className='custom-container'>
+        <section id='' className='custom-container'>
             <div>
                 <div>
                     <h1 style={{ color: "white", margin: "25px" }}>My Projects</h1>

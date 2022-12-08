@@ -10,6 +10,7 @@ export default function Projects(props) {
             <div>
                 <div>
                     <h1 style={{ color: "white", margin: "25px" }}>My Projects</h1>
+                    <hr></hr>
                     <div className='projects row'>
                         {
                             resumeInfo.projects && resumeInfo.projects.map((project) => {

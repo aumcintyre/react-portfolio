@@ -102,6 +102,24 @@ const resumeInfo = {
             "image": "images/note-taker.png",
             "description": "This application is titled 'Note Taker' and it can be used to write, save, or delete notes. The application is routed on the backend using Express.js. It allows the user to create a list of notes or reminders, and delete those notes once they are complete or no longer useful."
         },
+        {
+            "name": "Weather Dashboard",
+            "url": "https://aumcintyre.github.io/Weather-Dashboard/",
+            "image": "images/weather-dashboard-screenshot.png",
+            "description": "The weather dashboard allows a user to input any city and receive current and forecasted weather conditions. This could be useful in planning a normal week at home, or a vaction to a new location."
+        },
+        {
+            "name": "Coding Quiz",
+            "url": "https://aumcintyre.github.io/Code-Quiz",
+            "image": "images/code-quiz-screenshot.png",
+            "description": "This coding quiz is designed to new developers easily learn coding terminology. It will prompt users with a start page, a show highscores button, and a timer. Once the start button is clicked, the first question will appear and the timer will add 15 seconds per question and begin counting down. Users must quickly answer questions before the time runs out, but they must also choose carefully. Every incorrect answer given will result in 30 seconds being removed from the timer. For each correct answer, no time is subtracted, and one point is added to the final total. Once the quiz is complete or the timer runs out, the user is presented with a form showing their total score and a box for the user to enter initials. Once intials have been entered, the score + initials will be recorded in local storage and will display on the leaderboard, in descending order."
+        },
+        {
+            "name": "Work Day Scheduler",
+            "url": "https://aumcintyre.github.io/Work-Day-Scheduler",
+            "image": "images/workday-screenshot.jpg",
+            "description": "This page will present the user with the current day and time, and an agenda-view of the working hours in the day. These hour blocks will be presented differently to the user, depending on what time of day the user is interacting with the page. The user will see an editable text box for each hour where they can enter tasks that they would like to complete within that hour of the day. There is a save button to the right of each hour block, and when that is clicked, the user's input will be stored in local storage. This will allow the user to refresh the page without losing their hourly tasks. Hopefully, this allows employees to be more efficient with their time!"
+        },
     ],
 
 

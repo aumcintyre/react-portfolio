@@ -8,7 +8,7 @@ export default function About(props) {
     return (
         <div className='about-container custom-container'>
             <div className='row'>
-                <div className='col-md-5'>
+                <div className='col-md-6'>
                     <div className='about-me'>
                         <h1 className='greeting'>Hi, I'm Austin McIntyre!</h1>
                         <br></br>
@@ -17,7 +17,7 @@ export default function About(props) {
                         </p>
                     </div>
                 </div>
-                <div className='col-md-7'>
+                <div className='col-md-6'>
                     <img className='profile-picture' src="images/austin-tux.jpg" />
 
                 </div>

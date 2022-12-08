@@ -15,7 +15,7 @@ a {
 }
 
 .about-container {
-  color: antiquewhite;
+  color: white;
   justify-items: center;
   font-size: 24px;
   line-height: 2;
@@ -97,6 +97,8 @@ a {
 
 }
 
+
+
 .active {
   border-style: solid;
   border-top: 0px;
@@ -107,7 +109,7 @@ a {
 
 .greeting {
   font-size: 55px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .profile-picture {
@@ -171,4 +173,78 @@ a {
 
 .project-container:hover .overlay {
   opacity: .85;
+}
+
+.form-container {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.form-container>* {
+  margin: 5px 0;
+}
+
+.form-container input {
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding: 8px 1rem;
+  border: 1px solid #777;
+  border-radius: 3px;
+  outline: none;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-card {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+}
+
+.card-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.dir-column {
+  flex-direction: column;
+}
+
+.form-container input {
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding: 8px 1rem;
+  border: 1px solid #777;
+  border-radius: 3px;
+  outline: none;
+  background-color: white
+}
+
+.form-container textarea {
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding: 8px 1rem;
+  border: 1px solid #777;
+  border-radius: 3px;
+  outline: none;
+  background-color: white
+}
+
+.footer-icon {
+  background-color: #282c34;
+  border-style: solid;
+  border-top: 0px;
+  border-color: white;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.contact-links {
+  padding: 0px
 }

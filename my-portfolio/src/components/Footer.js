@@ -13,11 +13,11 @@ export default function Footer(props) {
                         {
                             resumeInfo.contactLinks && resumeInfo.contactLinks.map((link) => {
                                 return (
-                                    <li className='footer-icon'>
-                                        <a href={link.url}>
-                                            <i className={link.className}>{link.className}</i>
-                                        </a>
-                                    </li>
+                                    <a className='' href={link.url}>
+                                        <li className='footer-icon'>
+                                            <i className={link.className}></i>
+                                        </li>
+                                    </a>
                                 )
                             })
                         }

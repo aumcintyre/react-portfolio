@@ -14,7 +14,7 @@ export default function Projects(props) {
                         {
                             resumeInfo.projects && resumeInfo.projects.map((project) => {
                                 return (
-                                    <div className='project-container col-md-6 col-sm-11 col-xs-11'>
+                                    <div className='project-container col-md-4 col-sm-11 col-xs-11'>
                                         <div>
                                             <a href={project.url} className='project-link'>
                                                 <img src={project.image} className='project-image' />

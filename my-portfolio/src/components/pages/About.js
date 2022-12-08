@@ -10,7 +10,7 @@ export default function About(props) {
             <div className='row'>
                 <div className='col-md-5'>
                     <div className='about-me'>
-                        <h1 className='greeting'>Meet Austin McIntyre:</h1>
+                        <h1 className='greeting'>Hi, I'm Austin McIntyre!</h1>
                         <br></br>
                         <p>
                             {resumeInfo.aboutMe}

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "font-awesome": "^4.7.0",
+    "react-fontawesome": "^1.7.1"
+  }
+}

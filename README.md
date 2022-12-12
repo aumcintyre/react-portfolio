@@ -1,4 +1,4 @@
-# Nicole Wallace Portfolio
+# React Portfolio
 ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description 

@@ -104,7 +104,7 @@ const resumeInfo = {
         },
         {
             "name": "Note Taker",
-            "url": "https://note-taker-am1.herokuapp.com/",
+            "url": "https://am-note-taker.herokuapp.com/",
             "image": "images/note-taker.png",
             "description": "This application is titled 'Note Taker' and it can be used to write, save, or delete notes. The application is routed on the backend using Express.js. It allows the user to create a list of notes or reminders, and delete those notes once they are complete or no longer useful."
         },

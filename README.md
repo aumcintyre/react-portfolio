@@ -17,7 +17,7 @@ The user should clone the repository from GitHub and install dependencies. To ru
 ## Usage 
 This application will allow users view an about me page, links to find me, view my projects, and view my resume.<br>
 Please view deployed application on [Git Hub Pages](https://aumcintyre.github.io/react-portfolio/)<br>
-<img src='images/portfolio-screenshot.png'>
+<img src='/public/images/portfolio-screenshot.png'>
 
 ## License 
 This project is license under MIT

@@ -85,8 +85,14 @@ const resumeInfo = {
 
     "projects": [
         {
+            "name": "GiftHub",
+            "url": "https://p3-gift-hub.herokuapp.com/",
+            "image": "images/gifthub.png",
+            "description": "GiftHub is an exchange web application with a MongoDB back-end and ReactJS front-end that allows an authenticated user to create “exchanges” and invite others to that exchange. Separately, users can edit their wish lists, adding and deleting which gifts they would like to receive. In an exchange users can see others' wish lists."
+        },
+        {
             "name": "Virtual Bartender",
-            "url": "https://project2thebestmen.herokuapp.com/",
+            "url": "https://virtual-bartender-1.herokuapp.com/",
             "image": "images/best-men-screenshot.png",
             "description": "The Virtual Bartender is a place where users can come to find their favorite drinks, or try new ones based on their liquor of choice. It allows users to create or save recipes, as well as connect with other users to see their favorites too."
         },

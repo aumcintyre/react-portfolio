@@ -7,36 +7,37 @@ import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 import myResume from "../../documents/Austin-McIntyre-Resume.pdf";
 
 export default function Resume() {
-  const [pdfFile, setPDFFile] = useState(null);
-  const [viewPdf, setViewPdf] = useState(null);
+  //   const [pdfFile, setPDFFile] = useState(null);
+  //   const [viewPdf, setViewPdf] = useState(null);
 
-  const fileType = ["application/pdf"];
+  //   const fileType = ["application/pdf"];
 
-  const handleChange = (e) => {
-    let selectedFile = e.target.files[0];
-    if (selectedFile) {
-      if (selectedFile && fileType.includes(selectedFile.type)) {
-        let reader = new FileReader();
-        reader.readAsDataURL(selectedFile);
-        reader.onload = (e) => {
-          setPDFFile(e.target.result);
-        };
-      } else {
-        setPDFFile(null);
-      }
-    } else {
-      console.log("Please select a PDF file.");
-    }
-  };
+  //   const handleChange = (e) => {
+  //     let selectedFile = e.target.files[0];
+  //     if (selectedFile) {
+  //       if (selectedFile && fileType.includes(selectedFile.type)) {
+  //         let reader = new FileReader();
+  //         reader.readAsDataURL(selectedFile);
+  //         reader.onload = (e) => {
+  //           setPDFFile(e.target.result);
+  //           console.log("PDF Loaded");
+  //         };
+  //       } else {
+  //         setPDFFile(null);
+  //       }
+  //     } else {
+  //       console.log("Please select a PDF file.");
+  //     }
+  //   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (pdfFile !== null) {
-      setViewPdf(pdfFile);
-    } else {
-      setViewPdf(null);
-    }
-  };
+  //   const handleSubmit = (e) => {
+  //     e.preventDefault();
+  //     if (pdfFile !== null) {
+  //       setViewPdf(pdfFile);
+  //     } else {
+  //       setViewPdf(null);
+  //     }
+  //   };
 
   return (
     <div className="container">

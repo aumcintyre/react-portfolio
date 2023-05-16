@@ -4,7 +4,7 @@ import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 
-import myResume from "../../documents/Austin-McIntyre-Resume.pdf";
+import myResume from "../../documents/austin-mcintyre-resume.pdf";
 
 export default function Resume() {
   //   const [pdfFile, setPDFFile] = useState(null);
